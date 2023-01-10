@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <title>Hello!</title>
+    </head>
+    <body> 
+         <div class="TopBar">Cube's Games
+             <a href=""><button class="uiBtn">Home</button></a>
+             <a href=""><button class="uiBtn">Games</button></a>
+             <a href=""><button class="uiBtn">Info</button></a>
+         </div>
+         <h1 class="heading">Games</h1>
+         <div class="GamesContainer">
+             <div class="Game">
+                 <div class="Icn">
+                     <img class="BodyIconImage" alt="1 game img" src="icn1.jpg" width="250" height="250"/>
+                 </div>
+                 <div class="Inf">
+                     <div class="Desc">
+                         <p class="DefTitle">Speed car (Scratch)</p>
+                         <p class="Def">Game built on Scratch 3.0<br><i>last updated on: 03 Jan 2023</i></p>
+                     </div>
+                     <div class="play">
+                         <a href="http://scratch.mit.edu/projects/775339851/"><button class="StartBtn">Play now!</button></a>
+                     </div>
+                 </div>
+             </div>
+             
+             <div class="Game">
+                 <div class="Icn">
+                     <img class="BodyIconImage" alt="2 game img" src="icn2.jpg" width="250" height="250"/>
+                 </div>
+                 <div class="Inf">
+                     <div class="Desc">
+                         <p class="DefTitle">Simplistic Transport (Roblox)</p>
+                         <p class="Def">Game built on Roblox based on Transport stuff<br><i>last updated on: ?? Dec 2022</i></p>
+                     </div>
+                     <div class="play">
+                         <a><button class="StartBtn">Play now!</button></a>
+                     </div>
+                 </div>
+             </div>
+             
+         </div>
+         
+         <style>
+         Body {
+            font-family: Segoe UI;
+            padding-top: 100px;
+            background-color: #222222; 
+         }
+         .TopBar {
+            color: white;
+            font-family: Segoe UI;
+            font-weight: bold;
+            margin: 10px 10px 10px 10px;
+            padding: 25px 0px 25px 50px;
+            border-radius: 25px;
+            font-size: 50px;
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            right: 0%;
+            background-color: #222222;
+            box-shadow: 0px 0px 40px black;
+         }
+         .BodyIconImage {
+             border-color: white;
+             border-width: 50px;
+             border-radius: 10px 10px 10px 10px;
+             box-shadow: 0px 0px 50px white;
+         }
+         .DefTitle {
+             word-wrap: enable;
+             color: white;
+             font-weight: bold;
+             font-size: 40px;
+             text-align: center;
+         }
+         .Def {
+             color: white;
+             font-size: 25px;
+             text-align: center;
+         } 
+         .topbar .uiBtn {
+             cursor: pointer;
+            font-size: 50px;
+            color: white;
+            background-color: #222222;
+            border-radius: 10px;
+            font-weight: 100;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            border-bottom: ;
+            transition: all 0.5s;
+         }
+         .topbar .uiBtn:Hover {
+             background-color: #444444;
+             box-shadow: 0px 0px 10px black;
+             font-weight: 300;
+         }
+         .StartBtn {
+             cursor: pointer;
+             color: white;
+             background-color: lightgreen;
+             font-size: 50px;
+             padding-left: 55px;
+             padding-right: 55px;
+             padding-top: 10px;
+             padding-bottom: 10px;
+             border-radius: 9999px;
+             border: 0px;
+             transition: all 0.5s;
+         }
+         .StartBtn:Hover {
+             box-shadow: 0px 0px 75px darkgreen;
+         }
+         a {
+             text-decoration: none;
+         }
+         .GamesContainer {
+             display: grid;
+             align-items: left;
+             grid-template-columns: 1fr 1fr 1fr;
+         }
+         .Icn {
+             height: 250px;
+             display: flex;
+             justify-content: center;
+         }
+         .Game {
+             padding: 25px 25px 25px 25px;
+             margin: 25px 25px 25px 25px;
+             border-radius: 25px;
+             background-color #222222: ;
+             transition: all .5s;
+         }
+         .Game:Hover {
+             background-color: #333333;
+             box-shadow: 0px 0px 10px white;
+         }
+         .heading {
+             margin-top: 50px;
+             text-align: center;
+             color: white;
+             font-family: Segoe UI;
+             font-size: 100px;
+             
+         }
+         .play {
+             height: 175px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+         .Inf {
+             height: 250px;
+         }
+         .Desc {
+             height: 125px;
+         }
+         </style>
+    </body>
+</html>

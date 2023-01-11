@@ -7,17 +7,18 @@
              <div class="PopUp1" id="InfoPopUp">
                  Info
                  <p class="PopUpText" id="pText">
-                     Hello!
+                     Games which is <b>NOT</b> in Original Section, that game is not owned by me, I <b>cannot</b> update/fix <b>bugs</b> of any game.<br><br><sub>Games List 2023<br>Version 1.0</sub>
                  </p>
              </div>
          </div>
+         
          <div class="TopBar">Games
              <a href=""><button class="uiBtn">Home</button></a>
              <a href=""><button class="uiBtn">Pictures</button></a>
              <button class="uiBtn" id="InfoBtn" onclick="infoClick()">Info</button>
          </div>
          
-         <h1 class="heading">Recommended games (Original)</h1>
+         <h1 class="heading">Recommended Games (Original)</h1>
          
          <div class="GamesContainer">
              <div class="Game">
@@ -63,6 +64,74 @@
                          <a><button class="StartBtn">Play now!</button></a>
                      </div>
                  </div>
+                 
+             </div>
+             
+         </div>
+         
+         <h1 class="heading">"Simulator" Type Games</h1>
+         
+             <div class="GamesContainer">
+             <div class="Game">
+                 <div class="Icn">
+                     <img class="BodyIconImage" alt="1 game img" src="psxIcn.jpg" width="250" height="250"/>
+                 </div>
+                 <div class="Inf">
+                     <div class="Desc">
+                         <p class="DefTitle">Pet Simulator X (Roblox)</p>
+                         <p class="Def">Game which is all about pets! (best for whom likes pets)<br><i>last updated on: Year 2023</i></p>
+                     </div>
+                     <div class="play">
+                         <a href="http://scratch.mit.edu/projects/775339851/"><button class="StartBtn">Play now!</button></a>
+                     </div>
+                 </div>
+             </div>
+             
+             <div class="Game">
+                 <div class="Icn">
+                     <img class="BodyIconImage" alt="2 game img" src="beeIcn.jpg" width="250" height="250"/>
+                 </div>
+                 <div class="Inf">
+                     <div class="Desc">
+                         <p class="DefTitle">Bee Swarm Simulator! (Roblox)</p>
+                         <p class="Def">(Recommended) You all must PLAY this!<br><i>last updated on: Year 2023</i></p>
+                     </div>
+                     <div class="play">
+                         <a><button class="StartBtn">Play now!</button></a>
+                     </div>
+                 </div>
+             </div>
+             
+             <div class="Game">
+                 <div class="Icn">
+                     <img class="BodyIconImage" alt="? img" src="icn2.jpg" width="250" height="250"/>
+                 </div>
+                 <div class="Inf">
+                     <div class="Desc">
+                         <p class="DefTitle">Simplistic Transport (Roblox)</p>
+                         <p class="Def">(Recommended)[Transport best] Best InDevelopment Indian train simulators on Roblox! (Must visit daily to see whats new!) (Release soon)<br><i>last updated on: year 2023</i></p>
+                     </div>
+                     <div class="play">
+                         <a><button class="StartBtn">Play now!</button></a>
+                     </div>
+                 </div>
+                 
+             </div>
+             
+             <div class="Game">
+                 <div class="Icn">
+                     <img class="BodyIconImage" alt="? img" src="Soon.jpg" width="250" height="250"/>
+                 </div>
+                 <div class="Inf">
+                     <div class="Desc">
+                         <p class="DefTitle">Soon (???)</p>
+                         <p class="Def">Unknown!<br><i>last updated on: Soon</i></p>
+                     </div>
+                     <div class="play">
+                         <a><button class="StartBtn">Play now!</button></a>
+                     </div>
+                 </div>
+                 
              </div>
              
          </div>
@@ -80,12 +149,13 @@
             margin: 10px 10px 10px 10px;
             padding: 25px 0px 25px 50px;
             border-radius: 25px;
-            font-size: 50px;
+            font-size: 3rem;
             position: fixed;
             top: 0%;
             left: 0%;
             right: 0%;
             background-color: #222222;
+            background-image: linear-gradient(180deg, #111111, #222222);
             box-shadow: 0px 0px 40px black;
          }
          .BodyIconImage {
@@ -98,17 +168,17 @@
              word-wrap: enable;
              color: white;
              font-weight: bold;
-             font-size: 40px;
+             font-size: 3rem;
              text-align: center;
          }
          .Def {
              color: white;
-             font-size: 25px;
+             font-size: 1rem;
              text-align: center;
          } 
          .topbar .uiBtn {
-             cursor: pointer;
-            font-size: 50px;
+            cursor: pointer;
+            font-size: 3rem;
             color: white;
             background-color: #222222;
             border-radius: 10px;
@@ -117,31 +187,33 @@
             border-right: 0px;
             border-top: 0px;
             border-bottom: ;
-            transition: all 0.5s;
+            transition: all 0.5s ease;
          }
          .topbar .uiBtn:Hover {
              background-color: #444444;
              box-shadow: 0px 0px 10px black;
              font-weight: 300;
+             background-image: linear-gradient(0deg, #333333, #555555);
          }
          .StartBtn {
              cursor: pointer;
              color: white;
              background-color: lightgreen;
-             font-size: 50px;
+             font-size: 3rem;
              padding-left: 55px;
              padding-right: 55px;
              padding-top: 10px;
              padding-bottom: 10px;
              border-radius: 9999px;
              border: 0px;
-             transition: all 0.5s;
+             transition: all 0.5s ease;
          }
          .StartBtn:Hover {
-             box-shadow: 0px 0px 75px darkgreen;
+             box-shadow: 0px 0px 75px lightgreen;
          }
          a {
              text-decoration: none;
+             text-emphasis: none;
          }
          .GamesContainer {
              display: grid;
@@ -158,19 +230,20 @@
              margin: 25px 25px 25px 25px;
              border-radius: 25px;
              background-color #222222: ;
-             transition: all .5s;
+             transition: all .5s ease;
          }
          .Game:Hover {
              background-color: #333333;
+             background-image: linear-gradient(0deg, #333333, #444444);
              box-shadow: 0px 0px 10px white;
          }
          .heading {
              margin-top: 50px;
+             margin-left: 4rem;
              text-align: left;
              color: white;
              font-family: Segoe UI;
-             font-size: 100px;
-             
+             font-size: 3rem;
          }
          .play {
              height: 175px;
@@ -202,7 +275,7 @@
              background-color: rgba(0,0,0,0.5);
          }
          .PopUp1 {
-             font-size: 75px;
+             font-size: 4rem;
              color: rgba(0,0,0,0);
              border-radius: 15px;
              text-align: center;
@@ -221,7 +294,12 @@
              color: white;
          }
          .PopUpText {
-             font-size: 50px;
+             font-size: 2rem;
+         }
+         @media all and (max-width: 500px) {
+             .GamesContainer {
+                 grid-template-columns: 1fr 1fr 1fr 1fr;
+             }
          }
          </style>
          <script>
